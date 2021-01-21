@@ -192,5 +192,43 @@ def get_data():
                        "description": _("SDG Goal")
                    }
             ]
+        },
+            {
+            "label": _("Förderverein"),
+            "icon": "octicon octicon-megaphone",
+            "items": [
+                   {
+                       "type": "doctype",
+                       "name": "Customer",
+                       "label": _("Customer"),
+                       "description": _("Customer")
+                   },
+                   {
+                       "type": "doctype",
+                       "name": "Mitgliedschaft",
+                       "label": _("Mitgliedschaft"),
+                       "description": _("Mitgliedschaft")
+                   },
+                   {
+                       "type": "doctype",
+                       "name": "Sales Invoice",
+                       "label": _("Sales Invoice"),
+                       "description": _("Sales Invoice")
+                   },
+                   {
+                       "type": "doctype",
+                       "name": "Account Receivables",
+                       "label": _("Account Receivables"),
+                       "description": _("Account Receivables")
+                   },
+                   {
+                       "type": "doctype",
+                       "name": "Payment Reminder",
+                       "label": _("Payment Reminder"),
+                       "description": _("Payment Reminder")
+                   },
+            ]
         }
+        
+        
     ]
